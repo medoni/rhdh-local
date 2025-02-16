@@ -280,3 +280,4 @@ You can use RHDH-local with a debugger to to debug your backend plugins in VSCod
    If it doesn't work, most likely you need to adjust `localRoot` and `remoteRoot` paths in `launch.json`.
 
    Every time you make changes to your plugin source code, you need to repeat steps 3-6.
+ 
