@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+   namespace: default
+   name: engineering
+spec:
+   type: team
+   profile:
+      displayName: engineering
+   children: []
+   parent: software-devision
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  name: team-foo
+spec:
+  type: team
+  profile:
+    displayName: team-foo
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  name: software-devision
+spec:
+  type: department
+  profile:
+    displayName: software-devision
+    picture: https://blah.com/technology
+  children: []

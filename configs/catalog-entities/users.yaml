@@ -3,4 +3,6 @@ kind: User
 metadata:
   name: medoni
 spec:
-  memberOf: [default]
+  memberOf:
+  - engineering
+  - team-foo
